@@ -47,7 +47,7 @@ export default function Home() {
         />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://job-portal-teal.vercel.app/" />
-        <meta name="author" content="Abdullah Moiz" />
+        <meta name="author" content="kalabtenadeg" />
         <meta
           property="og:title"
           content="Find Your Dream Job | Job Portal Name"
