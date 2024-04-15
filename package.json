@@ -2,11 +2,11 @@
   "name": "job-portal-12",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://highlighttradings.com/",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@next/font": "13.2.3",
@@ -29,7 +29,7 @@
     "react": "18.2.0",
     "react-data-table-component": "^7.5.3",
     "react-dom": "18.2.0",
-    "react-icons": "^4.8.0",
+    "react-icons": "^4.12.0",
     "react-loader-spinner": "^5.3.4",
     "react-multi-input": "^1.0.0",
     "react-redux": "^8.0.5",

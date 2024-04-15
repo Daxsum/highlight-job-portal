@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BiSearchAlt } from "react-icons/bi";
 import Image from "next/image";
-import { BsFillBookmarkFill } from "react-icons/bs";
+// import { BsFillBookmarkFill } from "react-icons/bs";
 import { useSelector } from "react-redux";
 import JobsCard from "./JobsCard";
 
@@ -49,7 +49,7 @@ export default function Intro() {
           </div>
           <div className=" w-full px-2 py-2 flex items-center justify-start flex-wrap">
             <div className="flex items-center justify-center">
-              <BsFillBookmarkFill className="text-[#FECF13] text-xl mx-2" />
+              {/* <BsFillBookmarkFill className="text-[#FECF13] text-xl mx-2" /> */}
               <h1 className="font-semibold text-lg">Suggest Tag : </h1>
             </div>
             <div className="flex   items-center justify-center px-4 flex-wrap">
